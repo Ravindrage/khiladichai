@@ -94,7 +94,7 @@
 
         /* Lazy Loading Animation */
         img { loading: lazy; }
-        img[loading="lazy"] { opacity: 0; transition: opacity 0.5s; }
+        img[loading="lazy"] { transition: opacity 0.5s; }
         img[loading="lazy"]:loaded { opacity: 1; }
 
         /* Responsive */
@@ -107,16 +107,24 @@
 
 <body>
     <!-- WhatsApp Button with Chai Image -->
-    <a href="https://wa.me/919784433464?text=खिलाड़ी%20चाय%20₹5%20पैक%20photo%20देखा,%20ऑर्डर%20करना%20है" class="whatsapp-float" target="_blank">
-        <img src="https://images.unsplash.com/photo-1577968897966-7d7de7aa8e82?w=100&fit=crop" alt="₹5 चाय पैक" class="whatsapp-img" loading="lazy">
-        <span>₹5</span>
-    </a>
+	<a href="https://wa.me/919784433464?text=खिलाड़ी%20चाय%20₹5%20पैक%20photo%20देखा,%20ऑर्डर%20करना%20है"
+	   class="whatsapp-float"
+	   target="_blank">
+
+	<img src="images/hero.jpg"
+		 alt="₹5 चाय पैक"
+		 class="whatsapp-img"
+		 loading="lazy">
+
+	<span>₹5</span>
+	</a>
+
 
     <!-- Voice Answer with Featured Image -->
     <section class="voice-answer-section" style="background: linear-gradient(135deg, #fff3cd, #ffeaa7); padding: 1.5rem; text-align: center;">
         <div class="container">
             <h2 style="color: #856404;">✅ खिलाड़ी चाय जलोरी गेट</h2>
-            <img src="https://images.unsplash.com/photo-1577968897966-7d7de7aa8e82?w=400&fit=crop" alt="खिलाड़ी चाय ₹5 पैक photo" class="featured-img" loading="lazy">
+            <img src="images/hero.jpg" alt="खिलाड़ी चाय ₹5 पैक photo" class="featured-img" loading="lazy">
             <p><strong>₹5 चाय पैक</strong> | जलोरी गेट | सुबह 6-रात 11</p>
             <a href="tel:+919784433464" style="background: var(--primary); color: white; padding: 1rem 2.5rem; border-radius: 30px; text-decoration: none; font-weight: 700;">📞 अभी कॉल</a>
         </div>
